@@ -14,6 +14,15 @@ Theory- An OR gate is a fundamental digital logic gate that performs the logical
 Boolean Expression : Y = A + B
 
 Truth Table
++---------+---------+------------+
+| Input A | Input B | Output (Y) |
++---------+---------+------------+
+|    0    |    0    |     0      |
+|    0    |    1    |     1      |
+|    1    |    0    |     1      |
+|    1    |    1    |     1      |
++---------+---------+------------+
+
 
 In CMOS implementation, an OR gate is typically realized by designing a NOR gate followed by a CMOS inverter.
 
