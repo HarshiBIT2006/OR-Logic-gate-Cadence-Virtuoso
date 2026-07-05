@@ -13,16 +13,6 @@ Analyze the output waveform.
 Theory- An OR gate is a fundamental digital logic gate that performs the logical OR operation. The output becomes HIGH (logic 1) if at least one input is HIGH. The output is LOW (logic 0) only when both inputs are LOW.
 Boolean Expression : Y = A + B
 
-Truth Table
-+---------+---------+------------+
-| Input A | Input B | Output (Y) |
-+---------+---------+------------+
-|    0    |    0    |     0      |
-|    0    |    1    |     1      |
-|    1    |    0    |     1      |
-|    1    |    1    |     1      |
-+---------+---------+------------+
-
 
 In CMOS implementation, an OR gate is typically realized by designing a NOR gate followed by a CMOS inverter.
 
